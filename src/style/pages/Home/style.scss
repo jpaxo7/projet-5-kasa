@@ -1,0 +1,19 @@
+@use '../../variables' as *;
+
+.homepage {
+  @include desktop-display;
+  flex-direction: column;
+  gap: 50px;
+
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    padding-bottom: 55px;
+    padding-top: 5px;
+    margin: 0;
+    background-color: #f6f6f6;
+    border-radius: 25px;
+    list-style-type: none;
+  }
+}

@@ -1,0 +1,84 @@
+@use '../../variables' as *;
+
+.fiche-logement {
+  @include desktop-display;
+  flex-direction: column;
+
+  .carrousel {
+    margin-bottom: 30px;
+  }
+
+  .house-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+    .over-view {
+      display: flex;
+    }
+
+    h2 {
+      font-size: $large-font-size;
+      font-weight: 500;
+      color: $primary-color;
+      margin: 0;
+    }
+
+    p {
+      font-size: $small-font-size;
+      font-weight: 500;
+      margin: 5px 0px 0px;
+    }
+
+    .host {
+      display: flex;
+      flex-direction: column;
+
+      .host-name {
+        width: 93px;
+        text-align: right;
+        font-size: $small-font-size;
+        color: $primary-color;
+        font-weight: 500;
+      }
+
+      img {
+        height: 64px;
+        width: 64px;
+        border-radius: 32px;
+      }
+    }
+
+    .tags {
+      margin-top: 25px;
+      display: flex;
+
+      .tag {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 25px;
+        width: 115px;
+        color: white;
+        background-color: $primary-color;
+        border-radius: 10px;
+        font-size: $tiny-font-size;
+        font-weight: 700;
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .collapse-menu {
+    display: flex;
+    justify-content: space-between;
+
+    .collapse-description {
+      width: 582px;
+    }
+
+    .collapse-equipments {
+      width: 582px;
+    }
+  }
+}

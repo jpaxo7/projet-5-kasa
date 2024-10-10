@@ -1,0 +1,13 @@
+$primary-color: #ff6060;
+$secondary-color: black;
+$large-font-size: 36px;
+$normal-font-size: 24px;
+$small-font-size: 18px;
+$tiny-font-size: 14px;
+$mobile-font-size: 12px;
+
+@mixin desktop-display {
+  display: flex;
+  margin: auto;
+  max-width: 1240px;
+}

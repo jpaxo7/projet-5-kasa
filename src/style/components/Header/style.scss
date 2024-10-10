@@ -1,0 +1,24 @@
+@use '../../variables' as *;
+
+header {
+  @include desktop-display;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  margin-bottom: 50px;
+  nav {
+    display: flex;
+    gap: 57px;
+
+    a {
+      color: $secondary-color;
+      text-decoration: none;
+      font-size: $normal-font-size;
+      font-weight: 500;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

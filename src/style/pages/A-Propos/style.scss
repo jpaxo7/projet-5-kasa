@@ -1,0 +1,12 @@
+@use '../../variables' as *;
+
+.a-propos {
+  @include desktop-display;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+
+  .collapse-container {
+    width: 1023px;
+  }
+}
