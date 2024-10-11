@@ -4,11 +4,12 @@
   @include desktop-display;
   flex-direction: column;
   gap: 50px;
+  justify-content: center;
+  align-items: center;
 
   .card-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-    justify-self: stretch;
     grid-gap: 55px;
     justify-items: start;
     padding: 55px;
@@ -16,5 +17,10 @@
     background-color: #f6f6f6;
     border-radius: 25px;
     list-style-type: none;
+    max-width: 1240px;
+
+    @media (max-width: 1260px) {
+      max-width: 845px;
+    }
   }
 }
