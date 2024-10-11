@@ -72,13 +72,14 @@
         justify-content: center;
         align-items: center;
         height: 25px;
-        width: 115px;
+        min-width: 115px;
         color: white;
         background-color: $primary-color;
         border-radius: 10px;
         font-size: $tiny-font-size;
         font-weight: 700;
         margin-right: 10px;
+        padding: 0 10px;
       }
     }
   }
@@ -93,6 +94,12 @@
 
     .collapse-equipments {
       width: 582px;
+
+      ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
     }
   }
 }

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import '../../style/components/Collapse/style.scss'
 
-function Collapse({ index, title, content }) {
+function Collapse({ title, content }) {
   const [isOpen, setIsOpen] = useState(false)
   const [hasInteracted, setHasInteracted] = useState(false)
 
@@ -24,7 +24,7 @@ function Collapse({ index, title, content }) {
         <div
           className={`collapse-content ${isOpen ? 'slide-down' : 'slide-up'}`}
         >
-          <p>{content}</p>
+          <div>{content}</div>
         </div>
       )}
     </article>

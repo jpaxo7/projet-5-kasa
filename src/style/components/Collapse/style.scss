@@ -67,6 +67,10 @@
     margin: 0px 20px;
     font-size: $small-font-size;
     overflow: hidden;
+
+    div {
+      padding: 18px 0px;
+    }
   }
 
   .collapse-content.slide-down {

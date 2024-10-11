@@ -8,12 +8,12 @@ function Rating({ rating }) {
     <div className="rating">
       {starsRange.map((stars) =>
         rating >= stars ? (
-          <span>
-            <i class="fa-solid fa-star filled"></i>
+          <span key={stars}>
+            <i className="fa-solid fa-star filled"></i>
           </span>
         ) : (
-          <span>
-            <i class="fa-solid fa-star star"></i>
+          <span key={stars}>
+            <i className="fa-solid fa-star star"></i>
           </span>
         ),
       )}
