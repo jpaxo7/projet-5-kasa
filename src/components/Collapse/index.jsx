@@ -11,7 +11,7 @@ function Collapse({ index, title, content }) {
   }
 
   return (
-    <article key={`${index}-${title}`} className="collapse">
+    <article className="collapse">
       <div className="collapse-header">
         <h2 className="collapse-title">{title}</h2>
         <button className="toggle-button" onClick={toggleCollapse}>

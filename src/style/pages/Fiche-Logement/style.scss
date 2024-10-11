@@ -33,19 +33,33 @@
     .host {
       display: flex;
       flex-direction: column;
+      justify-content: space-around;
 
-      .host-name {
-        width: 93px;
-        text-align: right;
-        font-size: $small-font-size;
-        color: $primary-color;
-        font-weight: 500;
+      .host-info {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        .host-name {
+          width: 93px;
+          text-align: right;
+          font-size: $small-font-size;
+          color: $primary-color;
+          font-weight: 500;
+        }
+
+        img {
+          height: 64px;
+          width: 64px;
+          border-radius: 32px;
+          margin-left: 10px;
+        }
       }
 
-      img {
-        height: 64px;
-        width: 64px;
-        border-radius: 32px;
+      .rating {
+        display: flex;
+        justify-content: space-around;
+        width: 196px;
       }
     }
 

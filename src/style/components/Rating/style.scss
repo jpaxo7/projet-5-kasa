@@ -1,0 +1,13 @@
+@use '../../variables' as *;
+
+.fa-star {
+  font-size: $normal-font-size;
+}
+
+.filled {
+  color: $primary-color;
+}
+
+.star {
+  color: #e3e3e3;
+}

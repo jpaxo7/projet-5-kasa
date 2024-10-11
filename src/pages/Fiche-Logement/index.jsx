@@ -3,6 +3,7 @@ import Carrousel from '../../components/Carrousel'
 import '../../style/pages/Fiche-Logement/style.scss'
 import homes from '../../datas/homes.json'
 import { useParams } from 'react-router-dom'
+import Rating from '../../components/Rating'
 
 function FicheLogement() {
   const { id } = useParams()
@@ -38,8 +39,7 @@ function FicheLogement() {
               className="host-picture"
             />
           </div>
-
-          <div className="rating">tet</div>
+          <Rating rating={logement.rating} />
         </div>
       </div>
       <div className="collapse-menu">

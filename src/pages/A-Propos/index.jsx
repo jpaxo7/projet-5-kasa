@@ -9,8 +9,8 @@ function APropos() {
     <div className="a-propos">
       <Banner backgroundImage={aboutBannerImage} />
       <div className="collapse-container">
-        {aboutList.map(({ title, content, index }) => (
-          <Collapse index={index} title={title} content={content} />
+        {aboutList.map(({ title, content }) => (
+          <Collapse title={title} content={content} />
         ))}
       </div>
     </div>

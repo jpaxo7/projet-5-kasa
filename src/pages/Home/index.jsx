@@ -12,8 +12,8 @@ function Home() {
         title="Chez vous, partout et ailleurs"
       />
       <ul className="card-container">
-        {homes.map(({ id, title, cover }) => (
-          <Card key={id} id={id} title={title} cover={cover} />
+        {homes.map(({ id, title, cover }, index) => (
+          <Card key={index} id={id} title={title} cover={cover} />
         ))}
       </ul>
     </div>
