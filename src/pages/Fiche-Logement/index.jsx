@@ -15,9 +15,7 @@ function FicheLogement() {
 
   return (
     <div className="fiche-logement">
-      <div className="carrousel">
-        <Carrousel key={FicheLogement.id} pictures={logement.pictures} />
-      </div>
+      <Carrousel key={FicheLogement.id} pictures={logement.pictures} />
       <div className="house-details">
         <div className="overview">
           <h2>{logement.title}</h2>
