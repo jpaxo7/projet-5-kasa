@@ -1,5 +1,5 @@
 import Collapse from '../../components/Collapse/index'
-import Carrousel from '../../components/Carrousel'
+import SlideShow from '../../components/SlideShow'
 import '../../style/pages/Fiche-Logement/style.scss'
 import homes from '../../datas/homes.json'
 import { useParams } from 'react-router-dom'
@@ -15,7 +15,7 @@ function FicheLogement() {
 
   return (
     <div className="fiche-logement">
-      <Carrousel key={FicheLogement.id} pictures={logement.pictures} />
+      <SlideShow key={FicheLogement.id} pictures={logement.pictures} />
       <div className="house-details">
         <div className="overview">
           <h2>{logement.title}</h2>

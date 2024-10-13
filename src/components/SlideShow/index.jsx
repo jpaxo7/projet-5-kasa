@@ -1,7 +1,9 @@
 import React, { useState } from 'react'
-import '../../style/components/Carrousel/style.scss'
+import '../../style/components/SlideShow/style.scss'
 
-function Carrousel({ pictures }) {
+function SlideShow({ pictures }) {
+  const hasMultiplePictures = pictures.length > 1
+
   const [currentIndex, setCurrentIndex] = useState(0)
 
   const nextSlide = () => {
@@ -19,16 +21,16 @@ function Carrousel({ pictures }) {
   return (
     <div className="carrousel">
       <div
-        className="carrousel-image"
+        className={`carrousel-image ${hasMultiplePictures ? '' : 'single-photo'}`}
         style={{ backgroundImage: `url(${pictures[currentIndex]})` }}
         alt={`Slide ${currentIndex + 1}`}
       >
         <div className="btns">
           <button className="prev" onClick={prevSlide}>
-            <i class="fa-solid fa-chevron-left"></i>
+            <i className="fa-solid fa-chevron-left"></i>
           </button>
           <button className="next" onClick={nextSlide}>
-            <i class="fa-solid fa-chevron-right"></i>
+            <i className="fa-solid fa-chevron-right"></i>
           </button>
         </div>
         <div className="counter">
@@ -39,4 +41,4 @@ function Carrousel({ pictures }) {
   )
 }
 
-export default Carrousel
+export default SlideShow

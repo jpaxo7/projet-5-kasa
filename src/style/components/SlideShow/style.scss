@@ -42,5 +42,15 @@
       font-size: $small-font-size;
       color: white;
     }
+
+    &.single-photo {
+      .btns {
+        display: none;
+      }
+
+      .counter {
+        display: none;
+      }
+    }
   }
 }
