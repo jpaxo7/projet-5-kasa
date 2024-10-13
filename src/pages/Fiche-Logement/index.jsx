@@ -4,13 +4,14 @@ import '../../style/pages/Fiche-Logement/style.scss'
 import homes from '../../datas/homes.json'
 import { useParams } from 'react-router-dom'
 import Rating from '../../components/Rating'
+import Error from '../Error'
 
 function FicheLogement() {
   const { id } = useParams()
   const logement = homes.find((home) => home.id === id)
 
   if (!logement) {
-    return <div>Logement non trouvé</div>
+    return <Error />
   }
 
   return (

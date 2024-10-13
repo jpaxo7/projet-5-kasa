@@ -1,0 +1,28 @@
+@use '../../variables' as *;
+
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  h1 {
+    font-size: 288px;
+    color: $primary-color;
+    margin-top: 0;
+    margin-bottom: 139px;
+  }
+
+  h2 {
+    font-size: $large-font-size;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 139px;
+    color: $primary-color;
+  }
+
+  a {
+    font-size: $small-font-size;
+    margin-bottom: 139px;
+  }
+}
