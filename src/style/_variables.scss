@@ -5,6 +5,8 @@ $normal-font-size: 24px;
 $small-font-size: 18px;
 $tiny-font-size: 14px;
 $mobile-font-size: 12px;
+$normal-font-weight: 500;
+$bold: 700;
 
 @mixin desktop-display {
   display: flex;

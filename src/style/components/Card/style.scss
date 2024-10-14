@@ -11,7 +11,7 @@
   background-position: center;
   z-index: 0;
 
-  a{
+  a {
     text-decoration: none;
   }
   .overlay {
@@ -34,7 +34,7 @@
   h2 {
     position: relative;
     font-size: $small-font-size;
-    font-weight: 700;
+    font-weight: $bold;
     padding-left: 20px;
     color: white;
     z-index: 2;

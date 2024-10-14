@@ -19,14 +19,14 @@
 
     h2 {
       font-size: $large-font-size;
-      font-weight: 500;
+      font-weight: $normal-font-weight;
       color: $primary-color;
       margin: 0;
     }
 
     p {
       font-size: $small-font-size;
-      font-weight: 500;
+      font-weight: $normal-font-weight;
       margin: 5px 0px 0px;
     }
 
@@ -45,7 +45,7 @@
           text-align: right;
           font-size: $small-font-size;
           color: $primary-color;
-          font-weight: 500;
+          font-weight: $normal-font-weight;
         }
 
         img {
@@ -77,7 +77,7 @@
         background-color: $primary-color;
         border-radius: 10px;
         font-size: $tiny-font-size;
-        font-weight: 700;
+        font-weight: $bold;
         margin-right: 10px;
         padding: 0 10px;
       }
