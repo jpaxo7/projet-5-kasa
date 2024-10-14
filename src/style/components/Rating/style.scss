@@ -11,3 +11,9 @@
 .star {
   color: #e3e3e3;
 }
+
+@media (max-width: 376px) {
+  .fa-star {
+    font-size: 14px;
+  }
+}

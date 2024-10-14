@@ -39,4 +39,9 @@
     color: white;
     z-index: 2;
   }
+
+  @media (max-width: 376px) {
+    height: 255px;
+    width: 335px;
+  }
 }

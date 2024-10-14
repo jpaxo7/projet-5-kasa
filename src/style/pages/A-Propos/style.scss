@@ -9,4 +9,12 @@
   .collapse-container {
     width: 1023px;
   }
+
+  @media (max-width: 376px) {
+    padding: 0px 20px;
+    gap: 20px;
+    .collapse-container {
+      width: 335px;
+    }
+  }
 }

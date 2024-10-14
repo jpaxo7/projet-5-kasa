@@ -33,4 +33,22 @@
       0px 4px 4px #00000040;
     z-index: 2;
   }
+
+  @media (max-width: 376px) {
+    height: 111px;
+    justify-content: flex-start;
+    background-size: cover;
+    border-radius: 10px;
+
+    .overlay {
+      border-radius: 10px;
+    }
+
+    h1 {
+      font-size: 24px;
+      text-shadow: none;
+      width: 225px;
+      padding-left: 16px;
+    }
+  }
 }

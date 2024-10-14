@@ -102,4 +102,70 @@
       }
     }
   }
+
+  @media (max-width: 376px) {
+    padding: 5px 20px 5px;
+    .carrousel {
+      margin-bottom: 15px;
+    }
+
+    .house-details {
+      flex-direction: column;
+      margin-bottom: 15px;
+      h2 {
+        font-size: 18px;
+        width: 335px;
+      }
+      p {
+        font-size: 14px;
+      }
+
+      .host {
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 15px;
+
+        .host-info {
+          .host-name {
+            font-size: 12px;
+          }
+
+          img {
+            height: 32px;
+            width: 32px;
+            border-radius: 16px;
+            margin-left: 10px;
+          }
+        }
+
+        .rating {
+          width: 98px;
+        }
+      }
+
+      .tags {
+        margin-top: 10px;
+
+        .tag {
+          height: 18px;
+          min-width: 84px;
+          border-radius: 5px;
+          font-size: 10px;
+          padding: 0 5px;
+        }
+      }
+    }
+
+    .collapse-menu {
+      flex-direction: column;
+      .collapse-description {
+        width: 335px;
+      }
+
+      .collapse-equipments {
+        width: 335px;
+      }
+    }
+  }
 }

@@ -13,4 +13,14 @@ footer {
     font-weight: $normal-font-weight;
     color: white;
   }
+
+  @media (max-width: 376px) {
+    margin-top: 0px;
+
+    p {
+      font-size: 12px;
+      width: 133px;
+      text-align: center;
+    }
+  }
 }

@@ -53,4 +53,30 @@
       }
     }
   }
+
+  @media (max-width: 376px) {
+    height: 255px;
+    border-radius: 10px;
+
+    .carrousel-image {
+      background-size: cover;
+
+      .btns {
+        .prev {
+          margin: 0;
+        }
+        .next {
+          margin: 0;
+        }
+        button {
+          i {
+            font-size: 24px;
+          }
+        }
+      }
+    }
+    .counter {
+      display: none;
+    }
+  }
 }
