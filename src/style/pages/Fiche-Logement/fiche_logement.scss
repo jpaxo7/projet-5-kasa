@@ -3,6 +3,7 @@
 .fiche-logement {
   @include desktop-display;
   flex-direction: column;
+  flex: 1;
 
   .carrousel {
     margin-bottom: 30px;
@@ -105,7 +106,6 @@
 
   @media (max-width: 426px) {
     padding: 5px 20px 5px;
-    flex: 1;
     .carrousel {
       margin-bottom: 15px;
     }
