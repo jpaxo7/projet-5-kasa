@@ -1,10 +1,10 @@
-import Collapse from '../../components/Collapse/index'
-import SlideShow from '../../components/SlideShow'
-import '../../style/pages/Fiche-Logement/style.scss'
+import Collapse from '../../components/Collapse/collapse'
+import SlideShow from '../../components/SlideShow/slide_show'
+import '../../style/pages/Fiche-Logement/fiche_logement.scss'
 import homes from '../../datas/homes.json'
 import { useParams } from 'react-router-dom'
-import Rating from '../../components/Rating'
-import Error from '../Error'
+import Rating from '../../components/Rating/rating'
+import Error from '../Error/error'
 
 function FicheLogement() {
   const { id } = useParams()

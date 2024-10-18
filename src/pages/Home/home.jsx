@@ -1,8 +1,8 @@
-import Banner from '../../components/Banner/Index'
+import Banner from '../../components/Banner/banner'
 import homeBannerImage from '../../assets/Images/Homepage-banner.png'
-import '../../style/pages/Home/style.scss'
+import '../../style/pages/Home/home.scss'
 import homes from '../../datas/homes.json'
-import Card from '../../components/Card/Index'
+import Card from '../../components/Card/card'
 
 function Home() {
   return (

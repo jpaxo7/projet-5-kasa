@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import '../../style/components/SlideShow/style.scss'
+import '../../style/components/SlideShow/slide_show.scss'
 
 function SlideShow({ pictures }) {
   const hasMultiplePictures = pictures.length > 1

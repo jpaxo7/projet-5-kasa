@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import logo from '../../assets/Logo/kasa-red.png'
-import '../../style/components/Header/style.scss'
+import '../../style/components/Header/header.scss'
 import { useLocation } from 'react-router-dom'
 
 function Header() {
