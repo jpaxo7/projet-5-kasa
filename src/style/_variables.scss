@@ -11,5 +11,9 @@ $bold: 700;
 @mixin desktop-display {
   display: flex;
   margin: auto;
-  max-width: 1240px;
+  width: 1240px;
+
+  @media (max-width: 426px) {
+    max-width: 375px;
+  }
 }

@@ -5,12 +5,12 @@
   flex-direction: column;
   gap: 50px;
   align-items: center;
-
+  flex: 1;
   .collapse-container {
     width: 1023px;
   }
 
-  @media (max-width: 376px) {
+  @media (max-width: 426px) {
     padding: 0px 20px;
     gap: 20px;
     .collapse-container {
