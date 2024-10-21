@@ -1,14 +1,18 @@
 @use '../../variables' as *;
 
 header {
-  @include desktop-display;
+  display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 8px;
-  margin-bottom: 50px;
+  width: 90%;
+  max-width: 1240px;
+  padding-bottom: 50px;
+  padding-top: 8px;
+  margin: auto;
   nav {
     display: flex;
     gap: 57px;
+    width: 100%;
 
     a {
       color: $secondary-color;
@@ -30,7 +34,7 @@ header {
     }
   }
 
-  @media (max-width: 426px) {
+  @media (max-width: 769px) {
     height: 47px;
     margin-bottom: 0px;
     padding: 20px;
@@ -40,7 +44,7 @@ header {
     }
 
     nav {
-      width: 190px;
+      width: 100%;
       gap: 26px;
       justify-content: flex-end;
       a {

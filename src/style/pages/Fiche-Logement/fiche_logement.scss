@@ -4,6 +4,7 @@
   @include desktop-display;
   flex-direction: column;
   flex: 1;
+  width: 90%;
 
   .carrousel {
     margin-bottom: 30px;
@@ -104,8 +105,8 @@
     }
   }
 
-  @media (max-width: 426px) {
-    padding: 5px 20px 5px;
+  @media (max-width: 769px) {
+    margin: auto;
 
     .carrousel {
       margin-bottom: 15px;
